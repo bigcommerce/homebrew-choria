@@ -1,2 +1,2 @@
 # homebrew-choria
-Homebrew tap for Choria
+[Homebrew](https://brew.sh/) tap for [Choria](https://choria.io).
