@@ -3,6 +3,6 @@
 
 ## Usage
 ```bash
-brew tap joec4i/choria
+brew tap bigcommerce/choria
 brew install choria
 ```
