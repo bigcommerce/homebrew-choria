@@ -11,10 +11,10 @@ class Choria < Formula
     strategy :github_latest
   end
 
-  depends_on "go" => :build
+  depends_on "go@1.17" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "-o", bin/"choria", "main.go"
+    system Formula["go@1.17"].opt_prefix/"bin/go", "build", *std_go_args(ldflags: "-s -w"), "-o", bin/"choria", "main.go"
   end
 
   test do
